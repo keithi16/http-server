@@ -1,0 +1,40 @@
+# Diretório de build do Go
+bin/
+build/
+dist/
+
+# Arquivos compilados
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+
+# Arquivos gerados pelo go build
+*.out
+
+# Módulos baixados (opcional, só se quiser mesmo ignorar o /vendor)
+vendor/
+
+# Dependências do Go que podem aparecer
+go.work
+go.work.sum
+
+# Arquivos temporários do Go
+*.prof
+*.cover
+*.cov
+*.log
+
+# Ferramentas de code coverage
+coverage.*
+coverage/
+
+# IDEs
+.vscode/
+.idea/
+
+# Sistemas operacionais
+.DS_Store
+Thumbs.db
